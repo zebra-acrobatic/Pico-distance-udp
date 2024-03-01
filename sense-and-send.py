@@ -8,8 +8,8 @@ import network
 import usocket as socket
 
 # Define your pins
-trigger = Pin(14, Pin.OUT)
-echo = Pin(15, Pin.IN)
+trigger = Pin(14, Pin.OUT) # Replace with your pin
+echo = Pin(15, Pin.IN) # Replace with your pin
 
 # Create function to measure distance
 def ultra():
@@ -43,8 +43,8 @@ print('Connected to Wi-Fi:', wifi.ifconfig())
 udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Define destination IP address and port
-dest_ip = 'a'
-dest_port = b  # Example destination port
+dest_ip = 'a' # Replace with your IP
+dest_port = b  # # Replace with your UDP port
 
 # Define message to send
 message = b'Connected!'  # Convert string to bytes
