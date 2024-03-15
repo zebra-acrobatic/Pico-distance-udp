@@ -1,5 +1,5 @@
 # Simple UDP socket send message example
-import usocket as socket
+import socket as socket
 
 # Create UDP socket
 udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
