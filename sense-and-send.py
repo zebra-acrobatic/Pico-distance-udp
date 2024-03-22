@@ -5,7 +5,7 @@
 from machine import Pin
 import utime
 import network
-import usocket as socket
+import socket as socket
 
 # Define your pins
 trigger = Pin(14, Pin.OUT) # Replace with your pin
